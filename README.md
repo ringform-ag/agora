@@ -44,19 +44,33 @@ Centralization means there is a single point—a single controller, a single poi
 ## The Solution: Agora
 
 Agora is an open-source personal digital sovereignty base, built on a dual-end collaborative architecture consisting of a mobile end (phone) and a host end (PC).
+
 ┌──────────────────────────────┐ ┌──────────────────────────────┐
+
 │ Mobile │ │ Desktop │
+
 │ Sovereignty Control Panel │◄────►│ Service Runtime │
+
 │ The Security Key │ │ The Agent's Home │
+
 │ │ │ │
+
 │ · Master Identity (WebAuthn) │ │ · Steward Child ID Import │
+
 │ · Child ID Derivation (BIP-32)│ │ · Policy Sync & Enforcement │
+
 │ · Policy Config (MD/JSON) │ │ · Personal AI Agent Runtime │
+
 │ · Payment Signing (Biometric)│ │ · Service Provider Impl. │
+
 │ · Credential Issuance │ │ · Micro-payments (In-Limit) │
+
 │ · Escalation Approval │ │ · Escalation Requests │
+
 │ · Host Mgmt (Discover/Auth/Revoke)│ │ · Service Exposure (LAN/WAN) │
+
 └──────────────────────────────┘ └──────────────────────────────┘
+
 - **Define your own identity**: No phone number. No email. Create a digital identity (DID) controlled only by you using your fingerprint or face, and derive countless privacy-isolated sub-identities.
 - **Control your own data**: Your notes, credentials, transaction records are end-to-end encrypted and stored on your own devices. No one can decrypt them, including us.
 - **Decide your own payments**: Built-in sovereign payment module. Every transaction is signed by your private key and constrained by the policy limits you preset. No bank can freeze it. No platform can take a cut.
